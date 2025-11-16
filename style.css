@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(233, 148, 57);
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+h1 {
+    color: black;
+    margin: 0;
+}
+
+nav {
+    border-top: 4px solid rgb(190, 108, 0);
+    border-bottom: 4px solid rgb(190, 108, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover{
+color: #8d2800;
+transform: scale(1.4);
+}
+
+.kon {
+    max-width: 800px;
+    margin: 20px auto;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2 {
+    font-size:30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3{
+    font-size:35px;
+}
+
+.cake-card {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+.cake-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cake-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.cake-info p {
+    color: #dc3f00;
+}
+
+.cake-info ul {
+    color: #8d2800;
+    list-style: square;
+    margin-left: 20px;
+}
+
+.cake-img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0 10px;
+    font-weight: bold;
+    
+}
+.go-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(90deg, rgb(255,170,0), rgb(255,13,0), rgb(255,170,0));
+    background-size: 200% 100%;
+    animation: shine 5s infinite;
+    display: block;
+    margin: 0 auto 40px;
+    cursor: pointer;
+}
+
+@keyframes shine {
+    to { background-position: 200% 0; }
+}
